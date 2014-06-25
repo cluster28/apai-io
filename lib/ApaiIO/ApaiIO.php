@@ -51,6 +51,17 @@ class ApaiIO
     {
         $this->configuration = $configuration;
     }
+    
+    /**
+     * Get configuration object
+     * 
+     * @return ConfigurationInterface 
+     */
+    
+    public function getConfiguration()
+    {
+        return $this->configuration;
+    }
 
     /**
      * Runs the given operation
